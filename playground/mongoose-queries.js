@@ -27,7 +27,6 @@ Todo.findById(id).then((todo)=>{
   console.log('Todo By Id',todo);
 }).catch((err) => console.log(err));
 
-//User.findById
 var userId = '5adbbcfaee0cb4a42c012e78';
 User.findById(userId).then((user)=>{
   if(!user){
